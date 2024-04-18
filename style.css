@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: "Poppins", sans-serif;
+}
 .cabecalho{
-    background-color: rgb(0, 76, 255);
+    background-color: rgb(4, 47, 147);
     color: rgb(253, 253, 146);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 17px 0;
 }
 .cabecalho-imagem{
     width: 15%;
@@ -22,5 +25,56 @@
     display: flex;
 }
 .cabecalho-titulo{
-    padding: 20px 0;
+    padding: 35px 0;
+}
+.escola-imagem{
+    width: 22%;
+}
+.escola{
+    background-image: linear-gradient(rgb(12, 50, 241),rgb(211, 232, 244));
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.escola-titulo{
+    padding: 24px 0;
+    font-size: 30px;
+
+}
+.escola-texto-1{
+    padding: 24px 0;
+    font-size: 24px;
+    text-align: justify;
+}
+.escola-texto-2{
+    color: rgb(243, 197, 141);
+    padding: 24px 0;
+    font-size: 24px;
+    text-align: justify;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.ferramentas-imagem{
+    ali
+    width: 120px;
+}
+.ferramentas-icone{
+    width: 24px;
+}
+.ferramentas-div{
+    text-align: center;
+    padding: 16px 0;
+}
+.ferramentas-titulo{
+    text-align: center;
+    padding: 25px 0;
+    color: blue;
+}
+.ferramentas-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.ferramentas{
+    background-color: rgb(240, 237, 237);
 }
